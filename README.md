@@ -4,13 +4,21 @@ This is a simple extension which remembers the location of the scroll bar when y
 
 # Install
 
-Note: some browser don't support loading unpacked extensions. If your browser does not support it, then download the packed extension instead from the release section and load that.
 
+
+
+
+
+## Chromium based browser + browsers with (load unpacked support)
 ```
 git clone https://github.com/josephnglynn/remember-scroll-location.git
 ```
 
 Then in extension settings of your browser, press load unpacked and choose the repository folder
+
+
+## Other browsers
+Download the packed version from release and load that.
 
 # Privacy
 

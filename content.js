@@ -1,4 +1,4 @@
-const url = window.url;
+const url = window.location.href;
 const data = window.localStorage.getItem(url);
 
 

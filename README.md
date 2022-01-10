@@ -1,27 +1,17 @@
 # remember-scroll-location
 
-This project contains a blank WebExtension addon, a "white canvas" for your new experiment of
-extending and remixing the Web.
+This is a simple extension which remembers the location of the scroll bar when you leave a url and moves the scroll bar back to where it was before you left when you return.
 
+# Install
 
-and now?
+Note: some browser don't support loading unpacked extensions. If your browser does not support it, then download the packed extension instead from the release section and load that.
 
-  https://addons.mozilla.org/en-US/developers/
+```
+git clone https://github.com/josephnglynn/remember-scroll-location.git
+```
 
-You can find an overview, API docs, guides and how-tos on MDN:
+Then in extension settings of your browser, press load unpacked and choose the repository folder
 
-  https://developer.mozilla.org/en-US/Add-ons/WebExtensions
+# Privacy
 
-or look at the webextensions-examples git repo on Github as a source of API usage examples:
-
-  https://github.com/mdn/webextensions-examples
-
-You should also install the web-ext CLI tool, it is very helpful to run, lint and sign
-a WebExtension from the command line:
-
-  https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext
-
-  npm (or yarn) install -g web-ext
-
-  web-ext run -s /path/to/extension
-# remember-scroll-location
+This extension stores all its data in ```window.localstorage```, so when you clear your browsing history, all data will be cleared up too.
